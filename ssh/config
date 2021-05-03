@@ -1,4 +1,10 @@
 Host github.com
-HostName github.com
-IdentityFile C:\Users\user\.ssh\keyfile
-IdentitiesOnly yes
+  HostName github.com
+  IdentityFile C:\Users\user\.ssh\keyfile
+  IdentitiesOnly yes
+
+host main01
+	hostname 192.168.0.100
+	user user
+	IdentityFile C:/Users/user/.ssh/id_ed25519
+	IdentitiesOnly yes
